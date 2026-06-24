@@ -30,7 +30,7 @@ plt.title("Isp vs Mass Ratio for varying Δv")
 plt.xlabel("Specific Impulse (s)")
 plt.ylabel("Mass Ratio (-)")
 
-plt.savefig("figures/deltaVGradient.png", dpi=300, bbox_inches='tight')
+plt.savefig("simulation/figures/deltaVGradient.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 

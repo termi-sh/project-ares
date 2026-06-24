@@ -31,7 +31,7 @@ plt.axhline(y=ntrMR, color='green', linestyle='--')
 plt.legend()
 
 
-plt.savefig("figures/deltaVCurve.png", dpi=300, bbox_inches='tight')
+plt.savefig("simulation/figures/deltaVCurve.png", dpi=300, bbox_inches='tight')
 plt.show()
 
 
