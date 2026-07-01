@@ -5,9 +5,11 @@ Each simulation file when run should produce a figure into the figure folder.
 
 Includes JPL Ephemeris data used under the NASA Open Source Agreement and is included within the repository, and will not require you to download it separately.
 
+Also includes Izzo Lambert solver from https://github.com/jorgepiloto/lamberthub, used under the GPLv3 license, it would be used as a dependency but this project was writen for Python 3.14.5, which isnt supported by lamberthub.
+
 Dependencies:
 -python 3.14.5
--numpy
+-numpy 2.5
 -matplotlib
 -astropy
 -jplephem

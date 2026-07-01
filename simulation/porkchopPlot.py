@@ -5,6 +5,7 @@ from jplephem.spk import SPK
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
+from izzo import izzo2015
 
 kernel = SPK.open("simulation/de432s.bsp") #Chebyshev polynomial coefficients
 
